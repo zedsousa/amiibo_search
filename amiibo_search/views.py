@@ -5,10 +5,10 @@ import json
 import requests
 
 from rest_framework import viewsets
-from amiibo_search.models import Amiibo
+#from amiibo_search.models import Amiibo
 
-class AmiiboViewSet(viewsets.ModelViewSet):
-    queryset = Amiibo.objects.all().order_by('-amiibo_id')
+#class AmiiboViewSet(viewsets.ModelViewSet):
+#    queryset = Amiibo.objects.all().order_by('-idAmiibo')
 
 def index(request):
     #response = requests.get("https://teste")

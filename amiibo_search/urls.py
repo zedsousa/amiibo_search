@@ -19,7 +19,7 @@ from . import views
 
 from rest_framework import routers
 router = routers.DefaultRouter()
-router.register(r'amiibos', views.AmiiboViewSet)
+#router.register(r'amiibos', views.AmiiboViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

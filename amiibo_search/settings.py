@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'amiibo',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': 'newedrt',
         'HOST': 'localhost'
     }
 }

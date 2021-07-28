@@ -7,12 +7,8 @@
     <title>Amiibos por id</title>
 </head>
 <body>
-    <ul>    
-        {% for amiibo in amiibos_list %}
-        <li>
-            {{amiibo.id}}
-        </li>
-        {% endfor %}
+    <ul>
+        {{amiibos_list.amiiboSeries}}
     </ul>
 </body>
 </html>

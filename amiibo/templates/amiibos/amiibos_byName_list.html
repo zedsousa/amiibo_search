@@ -10,6 +10,7 @@
     <ul>    
         {% for amiibo in amiibos_list %}
         <li>
+            {{amiibo.amiiboSeries}}
             {{amiibo.name}}
         </li>
         {% endfor %}

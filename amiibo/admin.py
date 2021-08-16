@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Amiibo
+from .models import *
 
 class ListAmiibo(admin.ModelAdmin):
     list_display = ('character','gameSeries', 'name', 'type',)
@@ -9,3 +9,4 @@ class ListAmiibo(admin.ModelAdmin):
     list_per_page = 10
 
 admin.site.register(Amiibo, ListAmiibo)
+admin.site.register(TokenUser)

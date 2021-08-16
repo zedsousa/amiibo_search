@@ -13,4 +13,7 @@ class Amiibo(models.Model):
 
     def __str__(self):
         return self.name
+
+class TokenUser(models.Model):
+    token=models.CharField(max_length=100)
     
